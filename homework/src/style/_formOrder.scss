@@ -1,0 +1,122 @@
+.formOrder{
+    width: 100%;
+    height: 100%;
+    &__container{
+        width: 1184px;
+        height: 934px;
+        margin: 0 auto;
+        margin-top: 100px; 
+        padding-bottom: 20px;       
+    }
+    &__input-block{
+        width: 100%;
+        height: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__block{
+        width: 569px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 26px;
+    }
+    &__label{
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size:$mainFontSize;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &__input{
+        width: 569px;
+        height: 80px;
+        border-radius: 16px;
+        border: 1px solid #7EB693;
+        background: #FFF;
+        padding-left: 23px;
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3333;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        &::placeholder{
+            color: #ABABAB;
+            font-family: Roboto, $mainFontFamily;
+            font-size: $mainFontSize;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+          }
+    }
+    &__textarea{
+        width: 1184px;
+        height: 247px;
+        border-radius: 16px;
+        border: 1px solid #7EB693;
+        background: #FFF;
+        padding-left: 23px;
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3333;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        &::placeholder{
+          color: #ABABAB;
+          font-family: Roboto, $mainFontFamily;
+          font-size: $mainFontSize;
+          font-style: italic;
+          font-weight: 400;
+          line-height: normal;
+        } 
+    }
+}
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid var($mainColorText);
+  }
+  
+  input:invalid,
+  select:invalid,
+  textarea:invalid {
+    border: 2px solid #ff7d87;
+    box-shadow: none;
+  }
+  button:focus-visible,
+  input[type="submit"]:focus-visible {
+    border-color: var(--focus-ring-color);
+    outline: none;
+  }
+
+  label {
+    margin-top: 1rem;
+  }
+  button[type="submit"] {
+    color: #FFF;
+    font-family: Roboto, $mainFontFamily;
+    font-size: $mainFontSize*1.1111;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 16px;
+    background: #274C5B;    
+    display: flex;
+    width: 220px;
+    height: 72px;
+    padding: 28px 47px 29px 47px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    &:hover{
+      border-radius: 16px;
+      background: #EFD372;
+      transition: all ease 0.3s;
+    }
+  }

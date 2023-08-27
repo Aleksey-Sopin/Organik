@@ -1,0 +1,170 @@
+.blog {
+    width: 100%;
+    height: 815px;
+    margin: 180px 0;
+    background: #fff;
+    &__container {
+        width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title-block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+    &__title-block-left {
+        width: 50%;
+    }
+    &__subtitle {
+        color: #7EB693;
+        font-family: Yellowtail, $mainFontFamily;
+        font-size: $mainFontSize*2;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.7777;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    &__button {
+        margin-top: 5.5%;
+        padding: 28px 40px;
+        width: 220px;
+        height: 80px;
+        border-radius: 16px;
+        border: 2px solid $mainColorText;
+        background: #FFF;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    &__text {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center ;
+    }
+    &__arrow {
+        margin-top: 5px;
+    }
+    &__content-block {
+        height: 530px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 46px;
+    }
+    &__content-left {
+        width: 677px;
+        height: 530px;
+        background: url('/public/images/blog/img-left.png');
+        background-repeat: no-repeat;
+    }
+    &__content-right {
+        width: 677px;
+        height: 530px;
+        background-image: url('/public/images/blog/img-right.png');
+        background-repeat: no-repeat;
+    }
+    &__date-block {
+        width: 82px;
+        height: 82px;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 13px 15px;
+        margin-top: 46px;
+        margin-left: 49px;
+    }
+    &__number {
+        color: $mainColorText;
+        text-align: center;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: -5px;
+    }
+    &__month {
+        color: $mainColorText;
+        text-align: center;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+.article {
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 579px;
+    height: 330px;
+    padding: 46px 57px 60px 57px;
+    border-radius: 31px 34px 30px 30px;
+    background: #FFF;
+    box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+    &__author-block {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+    // &__author-icon {
+    // }
+    &__author-name {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__headline {
+        color: #274C5B;
+        font-family: Roboto, $mainFontFamily;
+        font-size:$mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    &__text {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%; 
+    }
+    &__button {
+        width: 220px;
+        padding: 28px 47px;
+        border-radius: 16px;
+        background: #EFD372;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        gap: 9px;
+    }
+    &__button-text {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__button-img {
+        margin-top: 5px;
+    }
+}

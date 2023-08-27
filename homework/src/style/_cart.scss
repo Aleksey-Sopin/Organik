@@ -1,0 +1,193 @@
+.cart {
+    width: 100%;
+    height: fit-content;
+    background: #fff;
+    &__container {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 87px;
+        background: #fff;
+    }
+    &__title-block {
+        width: 100%;
+        height: 450px;
+        background: url('/public/images/cart/background.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    // &__title {
+    // }
+    &__content {
+        text-align: center;
+        height: fit-content;
+        background: rgba(253, 176, 45, 0.16);;
+        margin-top: 140px;
+        padding: 150px 259px 46px 245px;
+    }
+    &__products-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 165px;
+    }
+    &__info-block {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__info-img{
+        width: 292px;
+        height: 226px;
+        background: #fff;
+        border-radius: 30px;
+        img{
+            width: 292px;
+            height: 226px;
+            background: transparent;
+            border-radius: 30px;
+            box-shadow: 0px 5px 10px #B8B8B8;
+        }
+    }
+    &__info-block-name {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size:$mainFontSize*2.2222;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &__info-block-discount {
+        color: #B8B8B8;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3333;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: line-through;
+    }
+    &__info-block-price {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size:$mainFontSize*2.2222;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &__quality-block {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+    &__quality-text {
+        color: $mainColorText;
+        font-family: Roboto,$mainFontFamily;
+        font-size: $mainFontSize*1.7777;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__quality-count {
+        width: 134px;
+        padding: 28px 61px 29px 61px;
+        border-radius: 16px;
+        border: 2px solid $mainColorText;
+        background: #FFF;
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__quality-delete {
+        width: 64px;
+        height: 46px;
+        padding: 28px 39px 29px 39px;
+        border-radius: 16px;
+        background: $mainColorText;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 97px;
+    }
+    &__sum-block {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-left: 80%;
+    }
+    &__total {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.2222;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        span{
+            color: $mainColorText;
+            font-family: Roboto, $mainFontFamily;
+            font-size: $mainFontSize*2.2222;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: 20px;
+        }
+    }
+    &__discount {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.2222;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        span{
+            color: $mainColorText;
+            font-family: Roboto, $mainFontFamily;
+            font-size: $mainFontSize*2.2222;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: 45px;
+        }
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 138px;
+        width: 220px;
+        height: 72px;
+        border-radius: 16px;
+        background: $mainColorText;
+        gap: 9px;
+        img{
+            margin-top: 4px;
+        }
+    }
+    &__button-text {
+        color: #FFF;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+.hide{
+    display: none;
+}
+  

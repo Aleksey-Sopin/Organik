@@ -1,0 +1,98 @@
+.header {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 3.88rem 0;
+    &__container {
+        max-width: 1600px;
+        margin: 0 auto;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    // &__logo-img {
+    // }
+    &__logo-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+    &__logo-text {
+        color: #274C5B;
+        font-family: Roboto, $mainFontFamily;
+        font-size: 2.11rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__nav-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.66rem;
+    }
+    // &__item {
+    // }
+    &__link {
+        color: $mainColorText;
+        font-family: Roboto $mainFontFamily;
+        font-size: 1.11rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__right-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__search {
+       width: 376px;
+       height: 3.666rem;
+       padding: 6px;
+       background: #FAFAFA;
+       border-radius: 36px 36px;
+       display: flex;
+       justify-content: space-between;
+    }
+    &__search-icon-block{
+        border-radius: 50%;
+        background-color: #7EB693;
+        padding: 15px;
+    }
+    &__search-icon{
+        width: 1.166rem;
+        height: 1.166rem;
+    }
+    &__search-input {
+        width: 80%;
+        margin-left: 0.5rem;
+        background: #FAFAFA;
+    }
+    &__basket {
+        width: 8.888rem;
+        height: 3.666rem;
+        border: 1px solid #E0E0E0;
+        border-radius: 33px 33px 33px 33px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        gap: 0.666rem;
+        background: #fff;
+    }
+    &__basket-link {
+        padding: 0.944rem;
+        background: $mainColorText;
+        border-radius: 50%;
+    }
+    &__basket-prod{
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

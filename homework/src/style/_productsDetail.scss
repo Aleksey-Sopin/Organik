@@ -1,0 +1,262 @@
+.productsDetail__wrap{
+    position: absolute;
+    top: 20%;
+    left: -50%;
+    z-index: 99;
+    width: 200%;
+    height: 1125px;
+    padding-top: 115px;
+    background: #FFFAFA;
+    transition: all ease 0.3s;
+}
+.productsDetail {
+    position: absolute;
+    top: 20%;
+    left: -50%;
+    z-index: 99;
+    width: 200%;
+    height: 1125px;
+    padding-top: 115px;
+    background: #FFFAFA;
+    transition: all ease 0.3s;
+    &__close{
+        opacity: 0;
+        visibility: hidden;
+        filter: blur(8px);
+        transform: scale(0.33);
+        box-shadow: 1rem 0 0 #274C5B;
+        transition: all ease 0.3s;
+    }
+    &__container {
+        background: #FFFAFA;
+        position: relative;
+        width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+    }
+    &__content-left{
+        box-shadow: 0px 5px 10px #B8B8B8;
+        border-radius: 30px;
+        background: #fff;
+    }
+    &__content-left img{
+        width: 600px;
+        height: 600px;
+        background: transparent;
+        border-radius: 30px;
+    }
+    &__category{    
+        margin-top: 38px;
+        margin-left: 35px;
+        width: 96px;
+        color: #FFF;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize*0.83333;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 5px 12px 6px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        background: #274C5B;
+    }
+    &__block {
+        max-width: 658px;
+        padding-top: 107px;
+    }
+    &__button-close{
+        position: absolute;
+        top: 0;
+        right: -8%;
+        color: #FFF;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 16px;
+        background: $mainColorText;
+        width: 64px;
+        height: 46px;
+        text-align: center;
+    }
+    &__title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.22222;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 9px;
+    }
+    &__content-reting-list {
+        display: flex;
+        margin-bottom: 13px;
+    }
+    // &__content-reting-item {
+    // }
+    &__content-reting-item img{
+        width: 15px;
+        height: 15px;
+    }
+    &__price-block {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 9px;
+        margin-bottom: 23px;
+    }
+    &__content-discount {
+        color: #B8B8B8;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: line-through;
+    }
+    &__content-price {
+        color: $mainColorText;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize*1.38888;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__content-descriptions {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%; 
+    }
+    &__quality-block {
+        margin-top: 35px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    &__quality{
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        align-self: center;
+    }
+    &__count {
+        display: flex;
+        padding: 28px 61px 29px 61px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        border: 2px solid $mainColorText;
+        background: #FFF;
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__button {
+        display: flex;
+        padding: 28px 39px 29px 39px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: #274C5B;
+        &:hover{
+            background: #EFD372;
+            transition: all ease .3s;
+        }
+    }
+    &__button-text {
+        color: #FFF;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    // &__bottom-block {
+    // }
+    &__bottom-button-block {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    &__button-descr {
+        width: 363px;
+        padding: 23px 57px;
+        color: #FFF;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize*1.38888;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 16px;
+        background: #274C5B;
+        &:hover{
+            color: $mainColorText;
+            background: #EFF6F1;
+            transition: all ease .3s;
+        }
+    }
+    &__button-info {
+        width: 363px;
+        padding: 23px 57px;
+        color: #FFF;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize*1.38888;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 16px;
+        background: #274C5B;
+        &:hover{
+            color: $mainColorText;
+            background: #EFF6F1;
+            transition: all ease .3s;
+        }
+    }
+    &__button-descr-hover{
+        color: $mainColorText;
+        background: #EFF6F1;
+        transition: all ease .3s;
+    }
+    &__button-info-hover{
+        color: $mainColorText;
+        background: #EFF6F1;
+        transition: all ease .3s;
+    }
+    &__text {
+        width: 1130px;
+        margin: 0 auto;
+        color: $colorParagraph;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%; 
+    }
+}

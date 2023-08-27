@@ -1,0 +1,66 @@
+.whoWeAre {
+    width: 100%;
+    height: 930px;
+    &__container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__left-block {
+    }
+    &__main-img {
+    }
+    &__right-block {
+        width: 50%;
+        margin-top: 100px;
+        position: relative;
+    }
+    &__content {
+        width: 80%;
+        border-radius: 36px;
+        padding-left: 90px;
+        padding-bottom: 42px;
+        background-color: #fff;
+        position: absolute;
+        left: -10%;
+        padding-top: 80px;
+    }
+    &__subtitle {
+        color: #7EB693;
+        font-family: Yellowtail, $mainFontFamily;
+        font-size: $mainFontSize*2;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+    &__title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.7777;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 35px;
+    }
+    &__descr-list {
+    }
+    &__item {
+        margin-bottom: 35px;
+    }
+    &__headline {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    &__text {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%; 
+    }
+}

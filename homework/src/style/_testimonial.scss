@@ -1,0 +1,122 @@
+.testimonials{
+    width: 100%;
+    height: 1267px;
+    background: url('/public/images/testimonials/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    &__container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 164px 0;
+        text-align: center;
+    }
+    &__subtitle {
+        color: #7EB693;
+        font-family: Yellowtail, $mainFontFamily;
+        font-size: $mainFontSize*2;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+    &__title {
+        color: $mainColorText;
+        text-align: center;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.777;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+    &__reting {
+        width: 122px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 20px;
+    }
+    // &__item {
+
+    // }
+    &__img {
+        width: 20px;
+        height: 20px;
+    }
+    &__description {
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        width: 780px;
+        color: $mainColorText;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%; 
+    }
+    &__userName {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &__role {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize*0.8333;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%; 
+        margin-bottom: 20px;
+    }
+    &__nav-img {
+    }
+    &__advantages-block {
+    }
+}
+.advantages {
+    &__list {
+        display: flex;
+        justify-content:center;
+        gap: 62px;
+    }
+    &__item {
+        width: 211px;
+        height: 211px;
+        background-color: #F1F1F1;
+        border: 5px solid #7EB693;
+        border-radius: 50%;
+        padding: 60px 0;
+    }
+    &__number {
+        color: $mainColorText;
+        text-align: center;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.7777;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    &__text {
+        color: $mainColorText;
+        text-align: center;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 165.4%;
+    }
+}
+#testimonials__hr{
+    height: 1px;
+    max-width: 1100px;
+    background: #E0E0E0;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

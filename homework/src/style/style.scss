@@ -1,0 +1,67 @@
+@import './_reset';
+@import './_fonts';
+@import './_variables';
+
+// basic style
+html,body{
+    overflow-x:hidden;
+    font-family: $mainFontFamily;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #fff;
+    color: $mainColorText;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+#root{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+button:hover{
+    opacity: .8;
+    transition: all ease .3s;
+}
+@import './_header';
+// 
+@import './_homePage';
+// 
+@import './_offerBanner';
+// 
+@import './_about';
+// 
+@import './_ourProducts';
+// modal
+@import './productsDetail';
+// 
+@import './_testimonial';
+// 
+@import './_offer';
+// 
+@import './_whoWeAre';
+// 
+@import './_gallery';
+// 
+@import './_newslatteer';
+// 
+@import './_error';
+// 
+@import './_cart';
+// 
+@import './_cartOrderOK';
+// 
+@import './blog';
+// 
+@import './_footer';
+//
+@import './cartOrderOK';
+// 
+@import './_formOrder';
+//  
+@import './_notFound';
+// 
+@import './_showDB';

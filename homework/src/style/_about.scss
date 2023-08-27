@@ -1,0 +1,130 @@
+.about {
+    width: 100%;
+    height: 1050px;
+    background: #F9F8F8;
+    &__background{
+        width: 100%;
+        height: 1050px;
+        background: url('/public/images/about/bg-pic.png');
+        background-repeat: no-repeat;
+    }
+    &__container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-top: 186px;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+    }
+    &__headline-block {
+        padding-left: 700px;
+    }
+    &__subtitle {
+        color: #7EB693;
+        font-family: Yellowtail, $mainFontFamily;
+        font-size: $mainFontSize*2;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.777;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    &__description {
+        color: $mainColorText;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%;
+    }
+    &__context-block {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    &__button {
+        margin-left: 700px;
+        display: flex;
+        width: 220px;
+        padding: 28px 39px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: $mainColorText;
+    }
+    &__button-text {
+        color: #FFF;
+        font-family: Roboto,$mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__button-img {
+    }
+}
+.context-block {
+    padding-left: 700px;
+
+    &__item-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__item-1-icon {
+    }
+    &__item-1-descr {
+        color: $mainColorText;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%;
+    }
+    &__item-1-title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 7px;
+    }
+    &__item-1-text {
+    }
+    &__item-2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__item-2-icon {
+    }
+    &__item-2-descr {
+        color: $mainColorText;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165.4%;
+    }
+    &__item-2-title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.3888;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 7px;
+    }
+    &__item-2-text {
+    }
+}

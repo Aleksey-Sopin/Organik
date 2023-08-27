@@ -1,0 +1,132 @@
+.footer {
+    margin-top: 52px;
+    width: 100%;
+    height: 510px;
+    background-color: #fff;
+    &__container {
+        width: 1400px;
+        height: 100%;
+        background-color: #fff;
+        margin: 0 auto;
+    }
+    &__content-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__contacts-block {
+        text-align: right;
+        padding-right: 50px;
+        border-right: 1px solid #D4D4D4;
+        padding-bottom: 100px;
+    }
+    &__contacts-title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.6666;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 35px;
+    }
+    &__contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    // &__contacts-item {
+    // }
+    &__contacts-item-title {
+        margin-bottom: 10px;
+        color: $colorParagraph;
+        text-align: right;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 165%; 
+    }
+    &__contacts-item-info {
+    }
+    &__social-block {
+        width: 543px;
+        text-align: center;
+    }
+    &__social-logo-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 23px;
+        gap: 8px;
+    }
+    // &__social-logo {
+      
+    // }
+    &__social-logo-text {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*2.11111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__social-description {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165%;
+    }
+    &__social-list {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        gap: 15px;
+    }
+    &__social-item {
+    }
+    &__utility-block {
+        text-align: left;
+        padding-left: 50px;
+        border-left: 1px solid #D4D4D4;
+        padding-bottom: 85px;
+    }
+    &__utility-title {
+        color: $mainColorText;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.6666;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 40px;
+    }
+    &__utility-list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    &__utility-item {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 272.9%;
+    }
+    &__bottom {
+        width: 100%;
+    }
+    &__hr {
+        width: 150%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: #D4D4D4;
+    }
+    &__copuright {
+        padding-top: 18px;
+        padding-bottom: 5px;
+        width: 700px;
+        margin: 0 auto;
+    }
+}

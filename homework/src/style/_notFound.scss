@@ -1,0 +1,70 @@
+.notFound {
+    width: 100%;
+    height: 898px;
+    &__container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            background-image: url('/public/images/NotFound/image.png');
+        }
+    }
+    &__content{
+        position: absolute;
+        top: 20%;
+        right: 15%;
+        text-align: center;
+    }
+    &__title {
+        color: #8FA8A8;
+        font-family: $mainFontFamily;
+        font-weight: 800;
+        font-size: $mainFontSize*15;
+        font-style: normal;
+        line-height: 90%;
+    }
+    &__subtitle {
+        color: #274C5B;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*3.8888;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    &__text {
+        color: $colorParagraph;
+        font-family: $mainFontFamily;
+        font-size: $mainFontSize;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 165.4%; 
+        text-align: left;
+    }
+    &__button{
+        width: 275px;
+        padding: 28px 40px 28px 40px;
+        border-radius: 16px;
+        background: #274C5B;
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        img{
+            width: 19px;
+            height: 19px;
+            background: transparent;
+            margin-left: 10px;
+            margin-top: 4px;
+        }
+    }
+    &__button-text{
+        color: #FFF;
+        font-family: Roboto, $mainFontFamily;
+        font-size: $mainFontSize*1.1111;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
